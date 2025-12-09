@@ -1,0 +1,14 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class ThankYou : MonoBehaviour
+{
+    public void thankyou()
+    {
+        SceneManager.LoadSceneAsync(0);
+    }
+
+    
+}
